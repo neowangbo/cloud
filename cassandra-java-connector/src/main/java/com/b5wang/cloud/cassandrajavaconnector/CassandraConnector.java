@@ -12,7 +12,7 @@ public class CassandraConnector {
 			
 			System.out.println("1---");
 			
-			ResultSet rs = session.execute("SELECT username,password,display_name,added_date FROM users");
+			ResultSet rs = session.execute("SELECT username,password,display_name,added_date FROM demo.users");
 			
 			System.out.println("2---");
 			
