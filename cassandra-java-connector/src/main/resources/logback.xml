@@ -20,8 +20,10 @@
 			<pattern>%d{HH:mm:ss.SSS} %-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
 		</encoder>
 	</appender>
-
-	<root level="debug" additivity="false">
+	
+	<logger name="com.b5wang.cloud.cassandrajavaconnector" level="INFO" />
+	
+	<root level="INFO" additivity="false">
 		<appender-ref ref="STDOUT" />
 		<!-- <appender-ref ref="FILE" /> -->
 	</root>

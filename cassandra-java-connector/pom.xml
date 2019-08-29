@@ -35,6 +35,11 @@
 			<version>${cassandra.driver.version}</version>
 		</dependency>
 		<dependency>
+		    <groupId>org.lz4</groupId>
+		    <artifactId>lz4-java</artifactId>
+		    <version>1.6.0</version>
+		</dependency>
+		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.2.3</version>
