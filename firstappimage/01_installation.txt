@@ -1,0 +1,15 @@
+Mac OS
+Installed:
+	1.Docker, latest version. Now version 18.0.9 does not include the whole virtual box, it only use virtual box driver to create local VMs with docker-machine create. The new solutions come with their own native virtualization solutions rather than Oracle VirtualBox. (It seems docker is not nessecary?)
+	2.Virtualbox latest version.
+	3.minikube: kubectl and kubenetes
+--------------------------------------------------------------------------------------
+First cloud application
+----
+1. Spring boot web application
+----
+2. Pack as image
+2 files in context: Dockerfile and .dockerignore
+
+
+        
