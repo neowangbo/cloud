@@ -24,16 +24,16 @@ public class SimpleStatementDemo {
 		String displayName = "Official user";
 		String addedDate = "1987-1-5";
 		
-		//insertUser(username, password, displayName, addedDate);
+		insertUser(username, password, displayName, addedDate);
 		
 		//getUser(username, password);
 		
-		String newDisplayName = "Unformal user name";
+		//String newDisplayName = "Unformal user name";
 		//updateDisplayName(username, newDisplayName);
 		
-		deleteUser(username, password);
+		//deleteUser(username, password);
 		
-		selectAll();
+		//selectAll();
 	}
 	
 	
