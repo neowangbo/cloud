@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @RestController
+@RequestMapping("/transaction")
 public class TransactionController {
 
-    @RequestMapping(value = "/transaction", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public Transaction getTransaction(@RequestParam(value="id", defaultValue="0") Integer id){
         Transaction transaction = new Transaction();
         transaction.setId(100);
@@ -19,6 +20,8 @@ public class TransactionController {
 
         return transaction;
     }
+
+    
 
 
 }
