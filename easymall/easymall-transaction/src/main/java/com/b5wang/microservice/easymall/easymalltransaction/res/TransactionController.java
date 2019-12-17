@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/transaction")
 public class TransactionController {
 
+    /**
+     * GET - retrieve data
+     *
+     * */
     @RequestMapping(method = RequestMethod.GET)
     public Transaction getTransaction(@RequestParam(value="id", defaultValue="0") Integer id){
         Transaction transaction = new Transaction();
@@ -21,7 +25,7 @@ public class TransactionController {
         return transaction;
     }
 
-    
+
 
 
 }
